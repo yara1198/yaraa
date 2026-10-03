@@ -208,4 +208,26 @@ footer p {
     h1 {
         font-size: 35px;
     }
+.card {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    word-wrap: break-word;
+    }
+
+.botao {
+    width: 500px;
+    padding: 20px;
+    margin-left: 400px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card {
+    width: 300px;
+    margin: 5px;
 }
