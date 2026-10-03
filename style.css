@@ -231,3 +231,9 @@ footer p {
     width: 300px;
     margin: 5px;
 }
+
+.botao {
+    height: 50px;
+    padding: 20px;
+    text-align: left;
+}
