@@ -94,6 +94,14 @@ p {
     font-size: 45px;
 }
 
+.desireimg {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
 .produtos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -218,4 +226,4 @@ footer p {
 
     h1 {
         font-size: 35px;
-    }}
+    }}   
