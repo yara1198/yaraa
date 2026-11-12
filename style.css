@@ -5,23 +5,32 @@
 }
 
 body {
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: Georgia, 'Franklin Gothic Medium', sans-serif;
     background-color: #fff5f8;
     color: #5c3745;
 }
 
 header {
+    position: relative;
+    
+    display:flex;
+    align-items:center;
     background-color: #eb9db5bd;
     padding: 20px;
     text-align: center;
       box-shadow: 0 3px 10px #af7185;
+
 }
 
+
 .logo {
-    font-family: Georgia, 'Franklin Gothic Medium', sans-serif;
-    font-size: 42px;
+    margin-right:auto;
+    white-space: nowrap;
+    font-family:  Georgia, 'Franklin Gothic Medium', sans-serif;
+    font-size: 50px;
     color: #9e4968;
     margin-bottom: 15px;
+    transform: translateX(50px);
 }
 
 nav a {
@@ -29,7 +38,9 @@ nav a {
     text-decoration: none;
     margin: 0 10px;
     font-size: 15px;
+    transform: translateX(50px);
 }
+
 
 nav a:hover {
     color: #a94468;
@@ -41,9 +52,6 @@ main {
 }
 
 h1 {
-
-    .buttonn {
-        padding: 15px;
     font-family: Georgia, serif;
     color: #9e4968;
     font-size: 42px;
@@ -78,18 +86,18 @@ p {
 .banner {
     text-align: center;
     background-color: #fbdce6;
-    padding: 100px 20px;
-    border-radius: 30px;
+    padding: 100px 50px;
+    border-radius: 25px;
 }
 
 .banner h1 {
-    font-size: 55px;
+    font-size: 45px;
 }
 
 .produtos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 10px;
 }
 
 .produto {
@@ -101,9 +109,9 @@ p {
 
 .produto img {
     width: 100%;
-    height: 280px;
+    height: 350px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .preco {
@@ -210,5 +218,4 @@ footer p {
 
     h1 {
         font-size: 35px;
-    }
-
+    }}
